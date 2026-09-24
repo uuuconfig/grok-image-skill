@@ -25,20 +25,20 @@
 
 ```text
 请帮我安装这个 Skill：
-https://github.com/<你的用户名>/grok-image-skill
+https://github.com/uuuconfig/grok-image-skill
 ```
 
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/<你的用户名>/grok-image-skill.git
+git clone https://github.com/uuuconfig/grok-image-skill.git
 Copy-Item grok-image-skill\grok-image "$HOME\.codex\skills\grok-image" -Recurse
 ```
 
 ### macOS / Linux
 
 ```bash
-git clone https://github.com/<你的用户名>/grok-image-skill.git
+git clone https://github.com/uuuconfig/grok-image-skill.git
 cp -R grok-image-skill/grok-image ~/.codex/skills/grok-image
 chmod +x ~/.codex/skills/grok-image/bin/grok-image-darwin-*
 ```
@@ -184,3 +184,4 @@ python "grok-image/bin/grok-image-python.py" `
 ## License
 
 [MIT](LICENSE)
+
