@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok Image"
+  short_description: "Generate images through the Grok Imagine API"
+  default_prompt: "Use $grok-image to generate images through my configured Grok API."
